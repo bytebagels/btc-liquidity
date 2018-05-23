@@ -64,3 +64,9 @@ AVERAGE ([COLDSTORAGE / LIMITORDERVOLUME] + 1) => 31.22
 5.44% XMR
 5.76% ZEC
 ```
+
+#### Lost Funds
+```
+5% ETH
+16% BTC
+```
