@@ -3,7 +3,10 @@
 This repo analyzes how many digital tokens are currently in circulation on exchanges. The volume calculation is done based on the orderbooks.
 
 ## Requirements
-`pip install ccxt`
+```
+python 3.6
+===> pip install ccxt
+```
 
 ## Results
 
