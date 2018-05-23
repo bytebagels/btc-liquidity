@@ -7,7 +7,7 @@ This repo analyzes how many digital tokens are currently in circulation on excha
 
 ## Results
 
-### Digital Tokens on Exchanges
+### Digital Tokens on Exchanges (Limit Order Volume)
 ```
 2715099 XMR (16.91%)
 1353106 ETH (1.36%)
@@ -23,4 +23,37 @@ This repo analyzes how many digital tokens are currently in circulation on excha
 5024.63 BTC (Bitfinex)
 766905.37 XMR (Bitfinex)
 216592.87 ETH (Bitfinex)
+```
+
+### Cold Storage (Volume)
+
+#### Bitcoin
+```
+COLDSTORAGE / LIMITORDERVOLUME
+=================================
+189799 / 5024.63 = 37.77 (Bitfinex)
+152779 / 8580.46 = 17.81 (Binance)
+117203 / 3044.34 = 38.50 (Bittrex)
+98041 / 2822.21 = 33.55 (Huobi)
+=================================
+AVERAGE ([COLDSTORAGE / LIMITORDERVOLUME] + 1) => 32.94
+```
+
+#### Ethereum
+```
+COLDSTORAGE / LIMITORDERVOLUME
+=================================
+801159 / 98812.68 = 8.11 (Kraken)
+650491 / 12433.35 = 52.32 (Bittrex)
+=================================
+AVERAGE ([COLDSTORAGE / LIMITORDERVOLUME] + 1) => 31.22
+```
+
+#### Total Supply on Exchanges
+```
+32 x LIMITORDERVOLUME
+=================================
+43.52% ETH
+13.44% BTC
+16.91% XMR (Privacy Coin)
 ```

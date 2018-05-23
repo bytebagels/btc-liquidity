@@ -2,7 +2,7 @@ import ccxt
 import helpers
 
 total = 0.0
-currency = "XMR"
+currency = "ZEC"
 # exchanges = ccxt.exchanges
 exchanges = ['binance', 'bitfinex', 'bitflyer', 'bithumb', 'bitkk', 'bitlish', 'bitmarket', 'bitmex','bitstamp', 'bittrex', 'bitz', 'bl3p', 'bleutrade', 'braziliex', 'btcbox', 'btcchina', 'btcexchange', 'btcmarkets', 'btctradeim', 'btctradeua', 'btcturk', 'btcx', 'ccex', 'cex', 'chbtc', 'ethfinex', 'exmo', 'exx', 'flowbtc', 'foxbit', 'fybse', 'fybsg', 'gatecoin', 'gateio', 'gdax', 'gemini', 'getbtc', 'hadax', 'hitbtc', 'huobi', 'huobicny', 'huobipro', 'ice3x', 'itbit', 'jubi', 'kraken', 'kucoin', 'kuna', 'lakebtc', 'lbank', 'liqui', 'livecoin', 'luno', 'lykke', 'mercado', 'mixcoins', 'negociecoins', 'nova', 'okcoincny', 'okcoinusd', 'okex', 'paymium', 'poloniex', 'qryptos', 'quadrigacx', 'quoinex', 'southxchange', 'surbitcoin', 'therock', 'tidebit', 'tidex', 'urdubit', 'vbtc', 'virwox', 'wex', 'xbtce', 'yobit', 'yunbi', 'zaif', 'zb']
 
