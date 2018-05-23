@@ -12,9 +12,10 @@ python 3.6
 
 ### Digital Tokens on Exchanges (Limit Order Volume)
 ```
-2715099 XMR (16.91%)
+2715099 XMR (0.17%)
 1353106 ETH (1.36%)
 71350 BTC (0.42%)
+751496.79 ZEC (0.18%)
 ```
 
 ### Largest Exchanges (Volume)
@@ -22,10 +23,12 @@ python 3.6
 15307.36 BTC (HitBtc)
 917055.28 XMR (HitBtc)
 182167.48 ETH (HitBtc)
+136188.43 ZEC (HitBtc)
 
 5024.63 BTC (Bitfinex)
 766905.37 XMR (Bitfinex)
 216592.87 ETH (Bitfinex)
+171579.10 ZEC (Bitfinex)
 ```
 
 ### Cold Storage (Volume)
@@ -58,5 +61,6 @@ AVERAGE ([COLDSTORAGE / LIMITORDERVOLUME] + 1) => 31.22
 =================================
 43.52% ETH
 13.44% BTC
-16.91% XMR (Privacy Coin)
+5.44% XMR
+5.76% ZEC
 ```
