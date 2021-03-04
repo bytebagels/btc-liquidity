@@ -1,7 +1,6 @@
 # Cryptocurrency Liquidity Analysis
 
-This repo analyzes how many digital tokens are currently in circulation on exchanges. The volume calculation is done based on the orderbooks. This enables 
-you for instance to calculate the total number of bitcoins available on each tradable bitcoin pair.
+This repository analyzes how many digital tokens are currently in circulation on exchanges. The volume calculation is done based on orderbook depth.
 
 ## Usage
 ```
