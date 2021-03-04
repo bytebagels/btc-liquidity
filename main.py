@@ -1,10 +1,15 @@
 import ccxt
 import helpers
+import sys
 
 total = 0.0
-currency = "ZEC"
+currency = sys.argv[1] if len(sys.argv) > 1 else "BTC"
+
 # exchanges = ccxt.exchanges
-exchanges = ['binance', 'bitfinex', 'bitflyer', 'bithumb', 'bitkk', 'bitlish', 'bitmarket', 'bitmex','bitstamp', 'bittrex', 'bitz', 'bl3p', 'bleutrade', 'braziliex', 'btcbox', 'btcchina', 'btcexchange', 'btcmarkets', 'btctradeim', 'btctradeua', 'btcturk', 'btcx', 'ccex', 'cex', 'chbtc', 'ethfinex', 'exmo', 'exx', 'flowbtc', 'foxbit', 'fybse', 'fybsg', 'gatecoin', 'gateio', 'gdax', 'gemini', 'getbtc', 'hadax', 'hitbtc', 'huobi', 'huobicny', 'huobipro', 'ice3x', 'itbit', 'jubi', 'kraken', 'kucoin', 'kuna', 'lakebtc', 'lbank', 'liqui', 'livecoin', 'luno', 'lykke', 'mercado', 'mixcoins', 'negociecoins', 'nova', 'okcoincny', 'okcoinusd', 'okex', 'paymium', 'poloniex', 'qryptos', 'quadrigacx', 'quoinex', 'southxchange', 'surbitcoin', 'therock', 'tidebit', 'tidex', 'urdubit', 'vbtc', 'virwox', 'wex', 'xbtce', 'yobit', 'yunbi', 'zaif', 'zb']
+exchanges = ['ftx', 'binance', 'bitfinex', 'bitflyer', 'bitkk', 'bitlish', 'bitmarket', 'bitmex', 'bitstamp', 'bittrex', 'bitz', 'bl3p', 'bleutrade', 'braziliex', 'btcbox', 'btcchina', 'btcexchange', 'btcmarkets', 'btctradeim', 'btctradeua', 'btcturk', 'btcx', 'ccex', 'cex', 'chbtc', 'ethfinex', 'exmo', 'exx', 'flowbtc', 'foxbit', 'fybse', 'fybsg', 'gatecoin', 'gateio', 'gdax', 'gemini', 'getbtc', 'hadax', 'huobi', 'huobicny', 'huobipro', 'ice3x', 'itbit', 'jubi', 'kraken', 'kucoin', 'kuna', 'lakebtc', 'lbank', 'liqui', 'livecoin', 'luno', 'lykke', 'mercado', 'mixcoins', 'negociecoins', 'nova', 'okcoincny', 'okcoinusd', 'okex', 'paymium', 'poloniex', 'qryptos', 'quadrigacx', 'quoinex', 'southxchange', 'surbitcoin', 'therock', 'tidebit', 'tidex', 'urdubit', 'vbtc', 'virwox', 'wex', 'xbtce', 'yobit', 'yunbi', 'zaif', 'zb']
+
+print(f"CALCULATING LIQUIDITY FOR {currency}")
+print("=====================================")
 
 for exchange in exchanges:
     try:
@@ -45,4 +50,4 @@ for exchange in exchanges:
         # Avoids missing api key error
         pass
 
-print("====> {:.2f}".format(total))
+print(">>>> {:.2f}".format(total))
