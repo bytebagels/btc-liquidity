@@ -11,7 +11,7 @@ python3 main.py btc
 
 ## Results
 
-Examples are provided in `btc.txt` and `eth.txt` (March, 2021). If you are only looking to track the BTCUSD pair I highly recommend [CryptoQuant][https://cryptoquant.com/]. Approximations below are from May, 2018. The liquidity tracking script offers great support and is based on [ccxt][https://github.com/ccxt/ccxt]. Note that cryptocurrency exchanges are known for reporting incorrect volume and orderbook data. Reputation of exchanges should be taken into account when looking at orderbook data. HitBTC and BitHumb were excluded from further calculations. 
+Examples are provided in `btc.txt` and `eth.txt` (March, 2021). If you are only looking to track the BTCUSD pair I highly recommend [CryptoQuant](https://cryptoquant.com/). Approximations below are from May, 2018. The liquidity tracking script offers great support and is based on [ccxt](https://github.com/ccxt/ccxt). Note that cryptocurrency exchanges are known for reporting incorrect volume and orderbook data. Reputation of exchanges should be taken into account when looking at orderbook data. HitBTC and BitHumb were excluded from further calculations. 
 
 BTC liquidity has dropped approximately 80% on exchanges in the past two years (March, 2021). ETH liquidity increased by 12.5% during the same time.
 
